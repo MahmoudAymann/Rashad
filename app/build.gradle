@@ -30,6 +30,9 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0-beta01'
     //Fast network
     implementation 'com.amitshekhar.android:android-networking:1.0.1'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     //ButterKnife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
