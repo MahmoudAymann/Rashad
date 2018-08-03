@@ -1,7 +1,7 @@
 package com.hajjhackaton.rashad;
 
 import com.hajjhackaton.rashad.model.RequirdData;
-import com.hajjhackaton.rashad.model.responseModule;
+import com.hajjhackaton.rashad.model.ResponseModule;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -13,6 +13,6 @@ import retrofit2.http.POST;
 
 public interface ApiLink {
     @POST("RequestCall")
-    Call<responseModule> getData(@Body RequirdData sentData);
+    Call<ResponseModule> getData(@Body RequirdData sentData);
 
 }

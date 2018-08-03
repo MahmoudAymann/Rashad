@@ -4,20 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainFragment"
-    android:orientation="vertical">
-
-    <EditText
-        android:id="@+id/nameET"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        tools:ignore="LabelFor" />
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
 
 
     <Button
         android:id="@+id/btn"
-        android:text="nameee"
+        android:text="Send"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="70dp" />
 
 </LinearLayout>

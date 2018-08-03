@@ -3,7 +3,7 @@ package com.hajjhackaton.rashad.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class responseModule
+public class ResponseModule
 {
     @SerializedName("status")
     @Expose
