@@ -11,8 +11,10 @@
 
     <Button
         android:id="@+id/btn"
-        android:text="Send"
+        android:text="ارسال الطلب الآن"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        />
 
 </LinearLayout>
